@@ -45,17 +45,16 @@ p {
     background-color: limegreen;
 }
 
-.menu {
-    list-style: none;
-    font-family: fantasy;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    color: red;
-    position:absolute;
-    z-index: 10;
+.rightmenu {
+    list-style:none;
+    font-family:fantasy;
 
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:red;
+    z-index: 10;
+    text-align:right
 }
 
 #hobbyname {
@@ -72,7 +71,7 @@ html {
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size:7px;
@@ -88,12 +87,12 @@ html {
 
   list-style: none;
     font-family: fantasy;
-    float:top;
+    
     top: 10px;
     right: 30px;
     cursor: pointer;
     color: red;
-    position:relative;
+   
     z-index: 10;  
     text-align:left;
 }
@@ -106,5 +105,5 @@ html {
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-size:9px;
+    font-size:7px;
 }
